@@ -1,6 +1,6 @@
 // Function to generate markdowns for the README
 const generateMarkdown = (data) => {
-    `# ${data.title}
+    return `# ${data.title}
     ## Description
     ${data.description} 
     ## Table of Contents 
@@ -13,14 +13,23 @@ const generateMarkdown = (data) => {
     [Questions](#questions)
 
     ## Installation 
-    ${data.description} 
+    ${data.installation} 
 
     ## Usage
-    ${data.description} 
-    
+    ${data.usage} 
+
     ## License 
+    ${data.license}
+
     ## Contributing 
-    ## Tests 
+    ${data.contributing}
+    
+    ## Tests
+    ${data.tests}
+
     ## Questions
+    ${data.questions}
     `
 }
+
+module.exports = generateMarkdown;
