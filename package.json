@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/oluwaseunolusanya/writemeareadme/issues"
   },
-  "homepage": "https://github.com/oluwaseunolusanya/writemeareadme#readme"
+  "homepage": "https://github.com/oluwaseunolusanya/writemeareadme#readme",
+  "dependencies": {
+    "inquirer": "^9.2.12"
+  }
 }
