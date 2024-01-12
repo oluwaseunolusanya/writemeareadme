@@ -1,0 +1,25 @@
+{
+  "name": "writemeareadme",
+  "version": "1.0.0",
+  "description": "A command line application developed in node.js environment that prompts user for data and uses the data to create a professional README.md file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oluwaseunolusanya/writemeareadme.git"
+  },
+  "keywords": [
+    "readme",
+    "node",
+    "commandline",
+    "tool"
+  ],
+  "author": "Oluwaseun Olusanya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oluwaseunolusanya/writemeareadme/issues"
+  },
+  "homepage": "https://github.com/oluwaseunolusanya/writemeareadme#readme"
+}
