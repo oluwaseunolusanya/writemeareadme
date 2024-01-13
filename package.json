@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/oluwaseunolusanya/writemeareadme#readme",
   "dependencies": {
-    "inquirer": "^9.2.12"
+    "inquirer": "^8.2.6"
   }
 }
