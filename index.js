@@ -32,7 +32,7 @@ const questions = [
         name: "License"
     },
     {
-        type:"input",
+        type:"list",
         message: "Choose a license to open source your repository.",
         name: "License",
         choices:[
@@ -69,6 +69,26 @@ const questions = [
             "WTFPL",
             "Zlib",
         ]
+    },
+    {
+        type:"input",
+        message: "Provide instructions on how to contribute to the project.",
+        name: "contributing"
+    },
+    {
+        type:"input",
+        message: "Provide testing instructions.",
+        name: "tests"
+    },
+    {
+        type:"input",
+        message: "Provide your github username to address any questions.",
+        name: "github-username"
+    },
+    {
+        type:"input",
+        message: "Provide your email to address questions about the project.",
+        name: "email"
     },
 ];
 
