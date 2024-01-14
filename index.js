@@ -247,3 +247,6 @@ const init = () => {
     } );
 };
 
+// Initialise program
+init();
+
