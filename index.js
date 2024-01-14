@@ -29,11 +29,6 @@ const questions = [
     {
         type:"list",
         message: "Choose a license to open source your repository.",
-        name: "License"
-    },
-    {
-        type:"list",
-        message: "Choose a license to open source your repository.",
         name: "License",
         choices:[
             "Apache 2.0 License",
