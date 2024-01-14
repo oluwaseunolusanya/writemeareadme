@@ -1,4 +1,4 @@
-# Writemeareadme                   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Writemeareadme                [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description                       
 Writemeareadme is command line application developed in Node.js environment that prompts user for information about their new project and uses the data to create a professional README.md file.
