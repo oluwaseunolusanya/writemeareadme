@@ -50,11 +50,12 @@ drwxr-xr-x 1 Olu 197121 0 Jan 14 20:53 writemeareadme/
 ```bash
 npm install --save inquirer@^8.0.0
 ```
-4. Run the index.js
+3. Run the index.js
 ```bash
 node index.js
 ```
-5. Follow the prompt and enter requested information. 
+4. Follow the prompt and enter requested information.
+5. Navigate to output folder and open the README.md to inspect its content. 
 
 ## License 
 MIT
