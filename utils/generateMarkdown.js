@@ -28,7 +28,7 @@ const generateMarkdown = (data) => {
     ${data.tests}
 
     ## Questions
-    ${data.questions}
+    Please engage with me on https://github.com/${data.questions} if you have questions about the project. You can also reach me at ${email}.
     `
 }
 
