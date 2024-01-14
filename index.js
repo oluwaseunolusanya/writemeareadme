@@ -243,7 +243,7 @@ const init = () => {
     inquirer.
     prompt(questions)
     .then((response) => {
-        generateMarkdown(response);
+        writeToReadMe("README.md",generateMarkdown(response));
     } );
 };
 
