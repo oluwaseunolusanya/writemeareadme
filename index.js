@@ -1,8 +1,8 @@
 // Import Required Modules.
 const fs = require("fs");
-const path = require("path");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
+const outputFolder = "./output";
 
 // Create an Array of User Prompts
 const questions = [
@@ -78,12 +78,17 @@ const questions = [
     {
         type:"input",
         message: "Provide your github username to address any questions.",
-        name: "github-username"
+        name: "githubusername"
     },
     {
         type:"input",
         message: "Provide your email to address questions about the project.",
         name: "email"
+    },
+    {
+        type:"input",
+        message: "Author:",
+        name: "author"
     },
 ];
 
@@ -101,7 +106,10 @@ const init = () => {
     inquirer.
     prompt(questions)
     .then((response) => {
-        writeToReadMe("README.md",generateMarkdown(response));
+        if (!fs.existsSync(outputFolder)) {
+            fs.mkdirSync(outputFolder);
+          }
+        writeToReadMe(`${outputFolder}/README.md`,generateMarkdown(response));
     } );
 };
 

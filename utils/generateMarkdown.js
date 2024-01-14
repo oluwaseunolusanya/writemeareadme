@@ -141,8 +141,8 @@ const generateBadge = (license) => {
 
 // Function to generate markdowns for the README
 const generateMarkdown = (data) => {
-    return `# ${data.title}
-    ## Description                       ${generateBadge(data.license)}
+    return `# ${data.title}                   ${generateBadge(data.license)}
+    ## Description                       
     ${data.description} 
     ## Table of Contents 
     [Description](#description)
@@ -162,7 +162,7 @@ const generateMarkdown = (data) => {
     ## License 
     ${data.license}
 
-    Copyright (c) ${year} ${process.env.npm_package_author}
+    Copyright (c) ${year} ${data.author}
     
     Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
     The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
@@ -176,7 +176,7 @@ const generateMarkdown = (data) => {
     ${data.tests}
 
     ## Questions
-    Please engage with me on https://github.com/${data.questions} if you have questions about the project. You can also reach me at ${data.email}.
+    Please engage with me on https://github.com/${data.githubusername} if you have questions about the project. You can also reach me at ${data.email}.
     `
 }
 
