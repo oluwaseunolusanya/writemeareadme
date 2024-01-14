@@ -4,7 +4,7 @@ const path = require("path");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// Declare an Array of User Prompts
+// Create an Array of User Prompts
 const questions = [
     {
         type:"input",
@@ -92,7 +92,7 @@ const questions = [
     },
 ];
 
-// Declare a function to generate license badge
+// Create a function to generate license badge
 const generateBadge = (license) => {
     switch (license) {
         case "Apache 2.0 License":
@@ -229,10 +229,21 @@ const generateBadge = (license) => {
     }
 };
 
-// Declare a function to write to README.md
+// Create a function to write to README.md
 const writeToReadMe = (fileName, data) =>{
     fs.writeFile(fileName, data, (err) => {
         err ? console.log(err) : console.log(`${fileName} generated!`);
     })
+};
+
+// Create a initialisation function
+const init = () => {
+    console.log(`Welcome to writemeareadme, a program that generates a README.md for your project.`);
+    
+    inquirer.
+    prompt(questions)
+    .then((response) => {
+        generateMarkdown(response);
+    } );
 };
 
