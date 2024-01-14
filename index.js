@@ -229,3 +229,10 @@ const generateBadge = (license) => {
     }
 };
 
+// Declare a function to write to README.md
+const writeToReadMe = (fileName, data) =>{
+    fs.writeFile(fileName, data, (err) => {
+        err ? console.log(err) : console.log(`${fileName} generated!`);
+    })
+};
+
