@@ -24,13 +24,13 @@ The tools/technologies includes Node.js and NPM Inquirer.js.
 1. Open your terminal.
 2. Check if Node.js is installed on your local machine by typing node -v and pressing Enter.
 ```bash
-$ node -v
+node -v
 v20.10.0
 ```
 3. If not installed, navigate to https://nodejs.org/en and install the LTS version of Node.js 
 4. Change the current working directory to the location of choice or to a newly created directory if need be. For example,
 ```bash
-$ cd sample
+cd sample
 ```
 5. Type git clone and paste https://github.com/oluwaseunolusanya/writemeareadme.git
 ```bash
@@ -39,7 +39,7 @@ git clone https://github.com/oluwaseunolusanya/writemeareadme.git
 6. Press Enter to create create your local clone.
 7. Type ls -l and confirm writemeareadme directory exists.
 ```bash
-$ ls -l
+ls -l
 total 4
 drwxr-xr-x 1 Olu 197121 0 Jan 14 20:53 writemeareadme/
 ``` 
@@ -52,7 +52,7 @@ npm install --save inquirer@^8.0.0
 ```
 4. Run the index.js
 ```bash
-$ node index.js
+node index.js
 ```
 5. Follow the prompt and enter requested information. 
 
