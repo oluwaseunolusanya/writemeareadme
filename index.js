@@ -12,7 +12,7 @@ const questions = [
         name: "title"
     },
     {
-        type:"input",
+        type:"editor",
         message: "Enter a concise description of the project.",
         name: "description"
     },
@@ -22,7 +22,7 @@ const questions = [
         name: "installation"
     },
     {
-        type:"input",
+        type:"editor",
         message: 'Describe how to use the program.',
         name: 'usage'
     },
@@ -66,12 +66,12 @@ const questions = [
         ]
     },
     {
-        type:"input",
+        type:"editor",
         message: "Provide instructions on how to contribute to the project.",
         name: "contributing"
     },
     {
-        type:"input",
+        type:"editor",
         message: "Provide testing instructions.",
         name: "tests"
     },
