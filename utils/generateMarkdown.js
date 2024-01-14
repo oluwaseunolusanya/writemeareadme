@@ -141,16 +141,24 @@ const generateBadge = (license) => {
 
 // Function to generate markdowns for the README
 const generateMarkdown = (data) => {
-    return `# ${data.title}                   ${generateBadge(data.license)}
+    return `# ${data.title}                         ${generateBadge(data.license)}
+
 ## Description                       
-${data.description} 
+${data.description}
+
 ## Table of Contents 
 [Description](#description)
+
 [Installation](#installation)
-[Usage](#usage) 
+
+[Usage](#usage)
+
 [License](#license)
-[Contributing](#contributing) 
-[Tests](#tests) 
+
+[Contributing](#contributing)
+
+[Tests](#tests)
+ 
 [Questions](#questions)
 
 ## Installation 
