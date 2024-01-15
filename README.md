@@ -55,7 +55,9 @@ npm install --save inquirer@^8.0.0
 node index.js
 ```
 4. Follow the prompt and enter requested information.
-5. Navigate to output folder and open the README.md to inspect its content. 
+5. Navigate to output folder and open the README.md to inspect its content.
+
+https://github.com/oluwaseunolusanya/writemeareadme/assets/26019734/3003a935-4d19-48ac-91f9-01cf0776aad3
 
 ## License 
 MIT
