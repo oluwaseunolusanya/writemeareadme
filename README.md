@@ -2,8 +2,8 @@
 
 ## Description                       
 Writemeareadme is command line application developed in Node.js environment that prompts user for information about their new project and uses the data to create a professional README.md file.
-The program prompts user for the title of the project/program being developed, brief description of the program does, installation and usage instructions, license under which the program was developed, how to contribute to the project, any test instructions and how to report issues found in the program.
-The tools/technologies includes Node.js and NPM Inquirer.js.  
+The program prompts user for the title of the project/program being developed, brief description of what the program does, installation and usage instructions, license under which the program was developed, how to contribute to the project, any test instructions and how to report issues found in the program.
+The tools/technologies used includes Node.js and NPM Inquirer.js.  
 
 ## Table of Contents 
 [Description](#description)
